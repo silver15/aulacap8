@@ -2,7 +2,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from 'pages/Home';
 import Navbar from 'components/Navbar';
 import Catalog from 'pages/catalog';
-import Admin from 'admin';
+import Admin from 'Admin';
 import ProductDetails from 'pages/ProductDetails';
 
 const Routes = () => (
