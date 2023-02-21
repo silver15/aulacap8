@@ -2,9 +2,9 @@ import { Router, Switch, Route, Redirect } from 'react-router-dom';
 import Home from 'pages/Home';
 import Navbar from 'components/Navbar';
 import Catalog from 'pages/catalog';
-import Admin from 'Admin';
+import Admin from 'pages/Admin';
 import ProductDetails from 'pages/ProductDetails';
-import Auth from 'Admin/Auth';
+import Auth from 'pages/Admin/Auth';
 import history from 'util/history';
 
 const Routes = () => (
